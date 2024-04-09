@@ -1,0 +1,74 @@
+.counter-container{
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 30px 0px rgb(209, 207, 197);
+  border: 4px solid rgb(232, 230, 221);
+  background-color: rgb(250, 249, 246);
+}
+
+.main-counting{
+  padding: 50px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(37, 42, 42);
+  text-shadow: 0px 2px 0px rgba(168, 218, 229, 1);
+}
+
+.main-btn-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-container{
+  padding: 10px;
+}
+
+.inc-btn{
+  border-radius: 15px;
+  padding: 10px 17px;
+  border: 4px solid rgb(101, 168, 101);
+  background-color: lightgreen;
+  box-shadow: 0px 10px 0px rgba(101, 168, 101, 1);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dec-btn{
+  border-radius: 15px;
+  padding: 10px 18px;
+  border: 4px solid rgb(183, 96, 96);
+  background-color: lightcoral;
+  box-shadow: 0px 10px 0px rgb(183, 96, 96);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset-btn{
+  border-radius: 15px;
+  padding: 14px 6px;
+  border: 4px solid rgb(115, 161, 176);
+  background-color: lightblue;
+  box-shadow: 0px 10px 0px rgb(115, 161, 176);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset-btn:active, .dec-btn:active, .inc-btn:active{
+  transform: translateY(10px);
+  box-shadow: none;
+}
